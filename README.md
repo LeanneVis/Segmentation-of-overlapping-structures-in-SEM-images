@@ -34,7 +34,6 @@ The processing pipeline consists of the following steps:
 4. Tessellate the position-orientation space using distances to the extracted boundaries.
 5. Detect structural edges.
 6. Perform geodesic tracking using a fast B-spline approximation.
-7. Train and evaluate a U-Net model for segmentation tasks.
 
 ## U-Net Implementation
 
@@ -42,7 +41,7 @@ The second folder contains three Python files:
 
 - `model.py` – Defines the U-Net architecture.
 - `dataloader.py` – Loads and preprocesses the training data.
-- `train.py` – Trains the U-Net model.
+- `unet.py` – Trains the U-Net model.
 
 
 
